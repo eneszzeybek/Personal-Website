@@ -1,0 +1,151 @@
+﻿body {
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.div-menubar, .div-contact {
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: turquoise;
+}
+
+.li1-navbar, .li2-navbar, .li3-anvbar, .li4-navbar, .li5-navbar, a.up, .li-phone, .li-linkedin, .li-mail, .li-github, a.down {
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    margin-left: -40px;
+    margin-right: 90px;
+    margin-top: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+a.up:hover, a.down:hover {
+    background-color: darkturquoise;
+}
+
+.ul-navbar, .ul-contact {
+    margin-left: 500px;
+}
+
+.div-interests {
+    padding: 50px;
+    height: 140px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.fa-microscope {
+    float: left;
+    font-size: 45px;
+}
+
+.p-interests {
+    padding: 45px;
+    font-size: 35px;
+}
+
+.div-education {
+    padding: 50px;
+    height: 140px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.fa-graduation-cap {
+    float: left;
+    font-size: 45px;
+}
+
+.p1-education {
+    padding: 35px;
+    font-size: 40px;
+}
+
+.p2-education {
+    padding-left: 35px;
+    font-size: 35px;
+    margin-top: -60px;
+}
+
+.p3-education {
+    padding-right: 150px;
+    font-size: 35px;
+    float: right;
+    margin-top: -135px;
+}
+
+.p4-education {
+    padding-right: 125px;
+    font-size: 35px;
+    float: right;
+    margin-top: -80px;
+}
+
+.div-certificates {
+    padding: 50px;
+    height: 980px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.fa-certificate {
+    float: left;
+    font-size: 45px;
+}
+
+.p1a-certificates {
+    padding-top: 55px;
+    padding-left: 45px;
+    font-size: 35px;
+}
+
+.p1b-certificates {
+    padding-left: 55px;
+    margin-top: -25px;
+    font-size: 35px;
+}
+
+.p2a-certificates, .p3a-certificates, .p4a-certificates, .p5a-certificates, .p6a-certificates, .p7a-certificates {
+    padding-top: 35px;
+    padding-left: 45px;
+    font-size: 35px;
+    margin-top: -35px;
+}
+
+.p2b-certificates, .p3b-certificates, .p4b-certificates, .p5b-certificates, .p6b-certificates, .p7b-certificates {
+    padding-left: 55px;
+    margin-top: -25px;
+    font-size: 35px;
+}
+
+.div-skills {
+    padding: 50px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.fa-cog {
+    float: left;
+    font-size: 45px;
+}
+
+.p1-skills {
+    padding-top: 60px;
+    padding-left: 55px;
+    font-size: 35px;
+}
+
+.p2-skills, .p3-skills {
+    padding-top: 60px;
+    padding-left: 55px;
+    font-size: 35px;
+    margin-top: -25px;
+}
+
+.fa-phone-alt, .fa-linkedin, .fa-envelope, .fa-github {
+    margin-left: 100px;
+    font-size: 45px;
+}
